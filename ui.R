@@ -39,11 +39,15 @@ dashboardPage(
               )
       ),
       tabItem("directors",
-                      fluidRow(
-                        box(DTOutput("directorsTable"), width = 5),
-                        box(uiOutput("directorDetails"), width = 7)
-                      )
+              fluidRow(
+                box(plotlyOutput("topDirectorsPlot"), width = 6),
+                box(plotlyOutput("directorsRatingPlot"), width = 6)
               ),
+              fluidRow(
+                box(DTOutput("directorsTable"), width = 5),
+                box(uiOutput("directorDetails"), width = 7)
+              )
+      ),
       tabItem("actors",
               fluidRow(
                 box(DTOutput("actorsTable"), width = 6),
