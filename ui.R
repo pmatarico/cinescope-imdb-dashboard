@@ -19,7 +19,7 @@ dashboardPage(
     uiOutput("year_selector")
   ),
   dashboardBody(
-    # Logo y título grande arriba
+    # Logo and title
     fluidRow(
       column(width = 2, tags$img(src = "logo_put.jpg", height = "90px")),
       column(width = 10,
@@ -71,7 +71,7 @@ dashboardPage(
                   title = "Recommended Movies", width = 8,
                   uiOutput("rec_results_summary"),
                   DTOutput("recommenderTable"),
-                  uiOutput("rec_movie_details")  # Panel para detalles de la peli seleccionada
+                  uiOutput("rec_movie_details")  
                 )
               )
       ),
