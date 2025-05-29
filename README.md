@@ -9,4 +9,4 @@ Created by Paula Mata, Politechnika Poznańska.
 - Click "Run App"
 
 ## Data source
-[IMDB Top 250 Movies (Kaggle)]((https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset))
+[IMDB Top 250 Movies (Kaggle)](https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset)
